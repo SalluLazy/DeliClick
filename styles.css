@@ -1,0 +1,159 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #fff8f5;
+    color: #5a3e36;
+}
+
+header {
+    background: #ffd5dc;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-family: 'Brush Script MT', cursive;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5a3e36;
+    font-weight: bold;
+}
+
+.ordenar {
+    background: #e89cae;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.banner {
+    text-align: center;
+    background: url('IMG/pastel\ de\ blu.avif') no-repeat center/cover;
+    padding: 5rem 2rem;
+    color: #fff;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    background: #ffb6c1;
+    padding: 0.7rem 1.5rem;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.como-funciona,
+.catalogo,
+.testimonios,
+.personaliza,
+.reparto {
+    padding: 3rem 2rem;
+    background: #fffaf7;
+}
+
+.como-funciona h2,
+.catalogo h2,
+.testimonios h2,
+.personaliza h2,
+.reparto h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.pasos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.producto {
+    background: #fff;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.producto button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    background: #e89cae;
+    color: white;
+    border-radius: 10px;
+}
+
+.testimonios .comentario {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffe9ee;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.reparto img {
+    max-width: 100%;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+
+footer {
+    background: #ffd5dc;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #5a3e36;
+}
